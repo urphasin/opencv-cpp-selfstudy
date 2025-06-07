@@ -53,3 +53,18 @@ If you're already learning C++ for neural networks or robotics, OpenCV pairs bea
 - Embedded systems (e.g. Raspberry Pi, Jetson Nano)
 - Arduino-compatible cameras
 - Deep learning frameworks like TensorFlow via `.onnx` models in C++
+
+
+## 🛠️ Getting Started with OpenCV in C++
+
+### 🔹 1. Install OpenCV (Linux)
+
+```bash
+sudo apt update
+sudo apt install libopencv-dev
+```
+###  🔹 2. To compile a simple OpenCV C++ program:
+
+```bash
+g++ main.cpp -o app `pkg-config --cflags --libs opencv4`
+```
